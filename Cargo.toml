@@ -1,6 +1,8 @@
 [package]
 name = "crdog"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+repository = "https://github.com/corsicanec82/crdog.git"
 
 [dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
