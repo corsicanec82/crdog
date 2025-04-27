@@ -2,7 +2,10 @@
 name = "crdog"
 version = "0.0.1"
 edition = "2024"
+authors = ["Stanislav Dzisiak <stanislav.dzisiak@gmail.com>"]
+homepage = "https://github.com/corsicanec82/crdog"
 repository = "https://github.com/corsicanec82/crdog.git"
 
 [dependencies]
 clap = { version = "4.5.37", features = ["derive"] }
+human-panic = "2.0.2"

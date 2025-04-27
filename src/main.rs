@@ -1,9 +1,9 @@
-use clap::Parser;
+use human_panic::setup_panic;
 
-#[derive(Parser)]
-#[command(version)]
-struct Cli {}
+mod cli;
 
 fn main() {
-    Cli::parse();
+    setup_panic!();
+
+    cli::run();
 }
